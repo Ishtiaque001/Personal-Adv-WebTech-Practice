@@ -7,7 +7,7 @@ function validateForm() {
     }
     
 
- if (name.length < 2 || lastName.length < 2) {
+ if (name.length < 2 ||  lastName.length < 2) {
     alert("Please enter at least 2 characters for both fields.");
     return false;
 }
