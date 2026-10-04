@@ -2,7 +2,6 @@ let add = (a, b) => {
     return a + b;
 };
 
-
 //more shorter version
 
 let addShort = (a, b) => a + b;
