@@ -47,3 +47,16 @@ let names = ["Alice", "Bob", "Charlie"];
  names.forEach((name) => {
     console.log("Hello, " + name.toUpperCase() + "!");
  });
+
+ //using map to create a new array
+ let NewNumbers = [1, 2, 3, 4, 5];
+  let squarednmbers = NewNumbers.map(el => el * el
+
+  )
+  console.log("squared numbers: " + squarednmbers); // Output: [1, 4, 9, 16, 25]
+
+let newNumbers = [1, 2, 3, 4, 5];
+   let number = newNumbers.filter(el => el>2);
+   console.log("filtered numbers: " + number); // Output: []
+
+  
